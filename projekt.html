@@ -1,0 +1,33 @@
+<div id="loginScreen" class="login-container">
+  <div class="login-card fade-in">
+    <div class="login-header">
+      <div class="login-logo">
+        <i class="fas fa-hard-hat"></i>
+      </div>
+      <h2 class="mb-2">Építőipari Webshop</h2>
+      <p class="text-muted">Bejelentkezés vagy regisztráció</p>
+    </div>
+    <div class="p-4">
+      <form id="loginForm">
+        <div class="mb-3">
+          <label class="form-label">Felhasználónév</label>
+          <input type="text" class="form-control form-control-lg" id="loginUsername" placeholder="Felhasználónév">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Email cím</label>
+          <input type="email" class="form-control form-control-lg" id="loginEmail" placeholder="pelda@email.hu">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Jelszó</label>
+          <input type="password" class="form-control form-control-lg" id="loginPassword" placeholder="••••••••">
+        </div>
+        <button type="button" class="btn btn-primary btn-lg w-100 mb-2" onclick="handleLogin()">
+          <i class="fas fa-sign-in-alt me-2"></i>Bejelentkezés
+        </button>
+        <button type="button" class="btn btn-outline-primary btn-lg w-100" onclick="handleRegister()">
+          <i class="fas fa-user-plus me-2"></i>Regisztráció
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
