@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Bronx Newspaper – Október 20., 1987</title>
+<title>Bronx Newspaper – Október 20., 2013</title>
 <link rel="stylesheet" href="newspapar.js">
 
 <style>
@@ -251,7 +251,7 @@
 
 <header>
   <h1>Bronx Newspaper</h1>
-  <p>Helyi hírek, országos események – Október 20., 1987</p>
+  <p>Napi hírek – Október 20., 2013</p>
   <div class="auth-box">
     <button id="btnLogin">Bejelentkezés</button>
     <button id="btnRegister">Regisztráció</button>
@@ -273,7 +273,7 @@
 </div>
 
 <footer>
-  Bronx Newspaper – 1987. Október 20. | Ez az oldal a korabeli sajtóstílust idézi meg.
+  Bronx Newspaper – 2013. Október 20. | © 2013 N12N, LLC
 </footer>
 
 <!-- Delik részlet a legutolsó oldalon -->
@@ -320,22 +320,25 @@
 <script>
   // === A hírek tömör tömbje ===
   const articles = [
-    {title:"Áramszünet a 3. sugárúton", text:"Este 8-kor sötétségbe borult egy teljes blokk. Javítás 3 órán belül történt.", link:"#"},
-    {title:"Híd alól került elő egy tárca", text:"Benne 320 dollár és egy buszbérlet. Tulajdonosát keresik.", link:"#"},
-    {title:"Rágcsálóinvázió a 138. utcán", text:"Hét patkányt láttak napfényben. Lakók aláírásgyűjtésbe kezdtek.", link:"#"},
-    {title: "UFO Bronx felett", text: "Ismét fényeket láttak az egyik utca fölött. Katonaság hallgat.", link: "ufo.html"},
-    {title:"Új könyvtár nyílt a Mott Havenben", text:"Retro olvasószoba, kazettás szekcióval. Hétfőtől nyitva.", link:"#"},
-    {title:"Faxóra díjat nyert", text:"A helyi diák szerkezete továbbjutott állami versenyen.", link:"#"},
-    {title:"Graffitiművészek lettek mentorok", text:"Képzőművészeti iskola hívta meg őket tanítani.", link:"#"},
-    {title:"Furcsa szag a metróban", text:"Nincs veszély – közölte az MTA. De a szag maradt.", link:"#"},
-    {title:"Új utcai zenész a Park Avenue-n", text:"Fiatal zongorista váltja az eddigi harmonikást.", link:"#"},
-    {title:"Kézi újság terjed a Bronxi kollégiumban", text:"Minden hétfőn új példány, egyedi tartalommal.", link:"#"},
-    {title:"Városi veterán megemlékezés", text:"Háborús hősöket idéztek meg a Town Hallban.", link:"#"},
-    {title:"Bronx utcakép: régi és új", text:"Fotókiállítás nyílt, ahol a múlt és jövő találkozik.", link:"#"},
-    {title:"Telefonközpont bővítése", text:"Új operátorok jelentkezését várják.", link:"#"},
-    {title:"A legújabb játékterem nyitva", text:"Pinball és arcade gépek a város fiataljainak.", link:"#"},
-    {title:"Börtönszökés sikertelen", text:"Egy rabot elfogtak a város határánál.", link:"#"},
-    {title:"Megnyitott az első bronxi 'delik'", text:"Újdonság: egy helyi kisbolt, ahol mindenféle érdekesség kapható.", link:"#"},
+    {title:"Áramszünet a 3. sugárúton", text:"Este 8-kor sötétségbe borult egy teljes blokk. Javítás 3 órán belül történt.", link:"aramszunet.html"},
+    
+    {title:"Híd alól került elő egy tárca", text:"Benne 320 dollár és egy buszbérlet. Tulajdonosát keresik.", link:"hid alatti tarca.html"},
+    
+    {title:"Rágcsálóinvázió a 138. utcán", text:"Hét patkányt láttak napfényben. Lakók aláírásgyűjtésbe kezdtek.", link:"ragcsalok.html"},
+    
+    {title:"UFO Bronx felett", text: "Ismét fényeket láttak az egyik utca fölött. Katonaság hallgat.", link: "ufo.html"},
+    
+    {title:"Új könyvtár nyílt a Mott Havenben", text:"Retro olvasószoba, kazettás szekcióval. Hétfőtől nyitva.", link:"konyvtar.html"},
+    
+    {title:"Furcsa szag a metróban", text:"Nincs veszély – közölte az MTA. De a szag maradt.", link:"MTA.html"},
+
+    {title:"Új utcai zenész a Park Avenue-n", text:"Fiatal Dj váltja az eddigi harmonikást.", link:"zenesz.html"},
+    
+    {title:"A legújabb játékterem nyitva", text:"Pinball és arcade gépek a város fiataljainak.", link:"jatekterem.html"},
+    
+    {title:"Börtönszökés sikertelen", text:"Egy rabot elfogtak a város határánál.", link:"rablas.html"},
+    
+    {title:"Megnyitott az első bronxi 'Delik'", text:"Újdonság: egy helyi kisbolt, ahol mindenféle érdekesség kapható.", link:"deli.html"},
   ];
 
   // 4 oldal - oldalanként 4 cikk, utolsó oldalon a delik rész

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bronx Newspaper – Rejtélyes tárca a híd alatt</title>
+<link rel="stylesheet" href="newspaper.css">
+
+<style>
+  /* --- Alap test --- */
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: #f5f0e1;
+    color: #111;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+  }
+
+  /* --- Header --- */
+  header {
+    position: relative;
+    text-align: center;
+    padding: 20px 10px;
+    border-bottom: 4px double #000;
+  }
+  header h1 {
+    font-size: 48px;
+    margin: 0;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', serif;
+    text-transform: uppercase;
+  }
+  header p {
+    font-size: 14px;
+    margin: 5px 0 0;
+    font-style: italic;
+  }
+
+  /* --- Tartalom konténer --- */
+  .container {
+    max-width: 960px;
+    margin: 30px auto;
+    background: #fffdfa;
+    padding: 20px 25px 40px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    border-top: 6px double #000;
+    border-bottom: 6px double #000;
+    user-select: text;
+  }
+
+  /* --- Cikk --- */
+  article {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  article h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', serif;
+    letter-spacing: 1.5px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 6px;
+  }
+  article p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #222;
+  }
+
+  /* --- Idézetek --- */
+  blockquote {
+    border-left: 3px solid #000;
+    padding-left: 10px;
+    margin: 15px 0;
+    font-style: italic;
+    color: #333;
+  }
+
+  /* --- Typewriter effekt a címhez --- */
+  @keyframes typing-flicker {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+  .typewriter {
+    font-family: monospace, Courier, monospace;
+    white-space: pre-wrap;
+    border-right: 2px solid black;
+    animation: typing-flicker 1s steps(2, start) infinite;
+    color: #222;
+  }
+
+  /* --- Kép elrendezés --- */
+  .article-image {
+    float: left;
+    margin: 0 15px 10px 0;
+    max-width: 40%;
+    height: auto;
+    border: 2px solid #000;
+  }
+
+  /* --- Footer --- */
+  footer {
+    text-align: center;
+    font-size: 13px;
+    margin: 40px 0 20px;
+    color: #444;
+    user-select: none;
+    font-family: 'Georgia', serif;
+  }
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Bronx Newspaper</h1>
+  <p>Helyi hírek – Október 20., 2013</p>
+</header>
+
+<a href="newspaper.html" class="back-button" aria-label="Vissza a főoldalra">← Vissza</a>
+
+<div class="container">
+  <article>
+    <h2 class="typewriter">Híd alól került elő egy rejtélyes tárca a Bronxban</h2>
+    <img src="tarca.png" alt="Bronx híd" class="article-image" />
+
+    <p>
+      Vasárnap délelőtt egy járókelő különös felfedezést tett a Harlem River egyik hídja alatt: egy régi, kopott bőrtárcát talált, amelyről senki sem tudja, hogyan kerülhetett oda. Bár a történet egyszerűnek tűnhet, a tárca tartalma több kérdést vetett fel, mint amennyit megválaszolt.
+    </p>
+
+    <p>
+      A helyi lakos, <strong>Miguel Torres</strong>, aki a híd alatt sétált a kutyájával, vette észre a sárban fekvő tárgyat.
+    </p>
+
+    <blockquote>
+      „Először azt hittem, valami szemét – de amikor megláttam, hogy bőr, és elég régi, felvettem. Belül volt néhány elázott papír, pár fénykép, és egy régi metrószelvény 1998-ból” – mesélte Torres a <em>Bronx Daily</em>-nek.
+    </blockquote>
+
+    <p>
+      A tárcában nem találtak személyi igazolványt vagy bankkártyát, de volt benne egy gyűrött, kézzel írott cetli, amelyen mindössze ennyi állt: <strong>„Ne keresd többé.”</strong>
+    </p>
+
+    <p>
+      A rendőrség megerősítette, hogy az ügyet vizsgálják, bár egyelőre nincs arra utaló jel, hogy bűncselekmény történt volna. A híd alatti területet ideiglenesen lezárták, amíg a nyomozók átvizsgálják a környéket.
+    </p>
+
+    <p>
+      A környékbeliek szerint a hely hírhedt arról, hogy időnként különféle furcsaságok kerülnek elő onnan. Egy idős lakos, <strong>Mrs. Delacruz</strong>, így emlékezett:
+    </p>
+
+    <blockquote>
+      „Évek óta látok ott fiatalokat összegyűlni éjszakánként. Sosem tudni, mit hagynak hátra. De tárcát még sosem találtak.”
+    </blockquote>
+
+    <p>
+      A talált tárgyat jelenleg a <strong>40. körzeti rendőrkapitányságon</strong> őrzik, és várják, hogy valaki bejelentkezzen érte.
+    </p>
+  </article>
+</div>
+
+<footer>
+  Bronx Newspaper – 2013. Október 20. | © 2013 N12N, LLC
+</footer>
+
+</body>
+</html>

@@ -3,13 +3,10 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Bronx Newspaper – UFO a Bronxban</title>
+<title>Bronx Newspaper – Rágcsálóinvázió a 138. utcán</title>
 <link rel="stylesheet" href="newspaper.css">
 
-
-
 <style>
-  /* --- Alap test --- */
   body {
     font-family: 'Georgia', 'Times New Roman', serif;
     background: #f5f0e1;
@@ -19,7 +16,6 @@
     user-select: none;
   }
 
-  /* --- Header --- */
   header {
     position: relative;
     text-align: center;
@@ -39,7 +35,6 @@
     font-style: italic;
   }
 
-  /* --- Tartalom konténer --- */
   .container {
     max-width: 960px;
     margin: 30px auto;
@@ -51,7 +46,6 @@
     user-select: text;
   }
 
-  /* --- Cikk --- */
   article {
     max-width: 700px;
     margin: 0 auto;
@@ -71,7 +65,14 @@
     color: #222;
   }
 
-  /* --- Kopott gépelés hatású betű (typewriter) --- */
+  blockquote {
+    border-left: 3px solid #000;
+    padding-left: 10px;
+    margin: 15px 0;
+    font-style: italic;
+    color: #333;
+  }
+
   @keyframes typing-flicker {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.5; }
@@ -84,7 +85,14 @@
     color: #222;
   }
 
-  /* --- Footer --- */
+  .article-image {
+    float: left;
+    margin: 0 15px 10px 0;
+    max-width: 40%;
+    height: auto;
+    border: 2px solid #000;
+  }
+
   footer {
     text-align: center;
     font-size: 13px;
@@ -94,41 +102,40 @@
     font-family: 'Georgia', serif;
   }
 </style>
-
-
 </head>
+
 <body>
 
 <header>
   <h1>Bronx Newspaper</h1>
-  <p>Helyi hírek – Október 20., 2013</p>
+  <p>Helyi hírek  – Október 20., 2013</p>
 </header>
-<a href="newspaper.html" class="back-button" aria-label="Vissza a főoldalra">← Vissza</a>
 
+<a href="newspaper.html" class="back-button" aria-label="Vissza a főoldalra">← Vissza</a>
 
 <div class="container">
   <article>
-    <h2 class="typewriter">UFO a Bronxban – A város fölött lebegő titokzatos fények</h2>
-    <p>
-      Az éjszakai égbolton a Bronx felett hirtelen megjelent egy ismeretlen eredetű, ragyogó fényforrás, amely pillanatok alatt felkeltette a helyiek figyelmét. Többen is jelentették, hogy furcsa, kör alakú objektum lebegett csendesen a házak fölött, és mozgása egyáltalán nem hasonlított semmilyen ismert repülőeszközére.
-    </p>
-    <article>
-  <h2 class="typewriter">UFO a Bronxban – A város fölött lebegő titokzatos fények</h2>
-  <img src="ufo.png" alt="UFO kép" style="float: right; margin: 0 0 15px 15px; max-width: 40%; height: auto; border: 2px solid #000;" />
-  <p>
-    Az éjszakai égbolton a Bronx felett hirtelen megjelent egy ismeretlen eredetű, ragyogó fényforrás, amely pillanatok alatt felkeltette a helyiek figyelmét. Többen is jelentették, hogy furcsa, kör alakú objektum lebegett csendesen a házak fölött, és mozgása egyáltalán nem hasonlított semmilyen ismert repülőeszközére.
-  </p>
-  ...
-</article>
+    <h2 class="typewriter">Rágcsálóinvázió a 138. utcán – Hét patkány napfényben</h2>
+    <img src="ragcsalok.png" alt="Patkány az utcán" class="article-image" />
 
     <p>
-      Az UFO-t a környék lakói izgatottan és egyben kissé aggódva figyelték, miközben a város fényei alatt lassan táncolt az égen. Néhányan azt mondták, hogy a különös jármű olyan gyorsan eltűnt, ahogy megjelent, mintha csak egy pillanatig akart volna megmutatkozni.
+      A Bronx 138. utcájában lakók hétköznap délutánján szemtanúi lehettek egy váratlan rágcsálóinváziónak: hét patkány mászkált nyílt utcán, teljesen napfényben, zavarva a járókelőket és a környékbeli üzletek mindennapjait.
     </p>
+
+    <blockquote>
+      „Soha nem láttam még ilyet a környéken” – mondta <strong>Antonio Lopez</strong>, aki gyakran sétál a 138. utcán. „Nagyon ijesztő volt látni, ahogy ezek a rágcsálók mindenfelé szaladgálnak.”
+    </blockquote>
+
     <p>
-      A helyi rendőrség és az ufó-kutatók is kivonultak a helyszínre, de a titokzatos repülő tárgy már nyomtalanul eltűnt. Vajon valóban földönkívüliek látogatták meg a Bronxot, vagy csak egy újabb magyarázat nélküli városi legenda született?
+      A lakók aggodalmuk jeléül aláírásgyűjtésbe kezdtek, hogy a városi közműszolgálatok nagyobb figyelmet fordítsanak a közterületek higiéniai és rágcsálóirtási feladataira.
     </p>
+
     <p>
-      Az biztos, hogy az éjszaka csendjét egy különleges, megmagyarázhatatlan esemény törte meg a Bronxban, amelyet még sokáig emlegetni fognak.
+      A helyi önkormányzat közleményben reagált, jelezve, hogy a környéken fokozott ellenőrzést és irtást terveznek a következő napokban, hogy megelőzzék az újabb rágcsálómegjelenéseket.
+    </p>
+
+    <p>
+      A lakók remélik, hogy az aláírásgyűjtés felhívja a figyelmet a problémára, és hosszú távon biztosítja a 138. utca tisztaságát és biztonságát.
     </p>
   </article>
 </div>

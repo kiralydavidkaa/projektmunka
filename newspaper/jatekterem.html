@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bronx Newspaper – A legújabb játékterem nyitva</title>
+<link rel="stylesheet" href="newspaper.css">
+
+<style>
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: #f5f0e1;
+    color: #111;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+  }
+
+  header {
+    position: relative;
+    text-align: center;
+    padding: 20px 10px;
+    border-bottom: 4px double #000;
+  }
+  header h1 {
+    font-size: 48px;
+    margin: 0;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', serif;
+    text-transform: uppercase;
+  }
+  header p {
+    font-size: 14px;
+    margin: 5px 0 0;
+    font-style: italic;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 30px auto;
+    background: #fffdfa;
+    padding: 20px 25px 40px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    border-top: 6px double #000;
+    border-bottom: 6px double #000;
+    user-select: text;
+  }
+
+  article {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  article h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', serif;
+    letter-spacing: 1.5px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 6px;
+  }
+  article p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #222;
+  }
+
+  blockquote {
+    border-left: 3px solid #000;
+    padding-left: 10px;
+    margin: 15px 0;
+    font-style: italic;
+    color: #333;
+  }
+
+  @keyframes typing-flicker {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+  .typewriter {
+    font-family: monospace, Courier, monospace;
+    white-space: pre-wrap;
+    border-right: 2px solid black;
+    animation: typing-flicker 1s steps(2, start) infinite;
+    color: #222;
+  }
+
+  .article-image {
+    display: block;
+    margin: 15px auto;
+    max-width: 80%;
+    height: auto;
+    border: 2px solid #000;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 13px;
+    margin: 40px 0 20px;
+    color: #444;
+    user-select: none;
+    font-family: 'Georgia', serif;
+  }
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Bronx Newspaper</h1>
+  <p>Helyi hírek  – Október 20., 2013</p>
+</header>
+
+<a href="newspaper.html" class="back-button" aria-label="Vissza a főoldalra">← Vissza</a>
+
+<div class="container">
+  <article>
+    <h2 class="typewriter">A legújabb játékterem nyitva – Pinball és arcade gépek</h2>
+    <img src="arcade.png" alt="Játékterem belső" class="article-image" />
+
+    <p>
+      A Bronx fiataljai számára új szórakozási lehetőség nyílt: a városban megnyílt legújabb játékterem pinball és arcade gépekkel várja a látogatókat. A terem retro hangulatot idéz, így egyszerre nosztalgiázhatnak a felnőttek és játszhatnak a fiatalok.
+    </p>
+
+    <blockquote>
+      „Nagyon örülünk, hogy végre van egy hely, ahol a város fiataljai és a nosztalgia kedvelői is jól érezhetik magukat” – mondta <strong>Lucas Herrera</strong>, a terem tulajdonosa.
+    </blockquote>
+
+    <p>
+      A játékterem minden nap nyitva tart, és különböző versenyeket és programokat is terveznek, hogy a látogatók mindig találjanak új élményeket.
+    </p>
+
+    <p>
+      A város képviselői is üdvözölték a kezdeményezést, és ígéretet tettek, hogy támogatják az ifjúsági szórakoztatási helyeket a Bronx különböző részein.
+    </p>
+  </article>
+</div>
+
+<footer>
+  Bronx Newspaper – 2013. Október 20. | © 2013 N12N, LLC
+</footer>
+
+</body>
+</html>

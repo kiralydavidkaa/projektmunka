@@ -3,13 +3,10 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Bronx Newspaper – UFO a Bronxban</title>
+<title>Bronx Newspaper – Új utcai zenész a Park Avenue-n</title>
 <link rel="stylesheet" href="newspaper.css">
 
-
-
 <style>
-  /* --- Alap test --- */
   body {
     font-family: 'Georgia', 'Times New Roman', serif;
     background: #f5f0e1;
@@ -19,7 +16,6 @@
     user-select: none;
   }
 
-  /* --- Header --- */
   header {
     position: relative;
     text-align: center;
@@ -39,7 +35,6 @@
     font-style: italic;
   }
 
-  /* --- Tartalom konténer --- */
   .container {
     max-width: 960px;
     margin: 30px auto;
@@ -51,7 +46,6 @@
     user-select: text;
   }
 
-  /* --- Cikk --- */
   article {
     max-width: 700px;
     margin: 0 auto;
@@ -71,7 +65,14 @@
     color: #222;
   }
 
-  /* --- Kopott gépelés hatású betű (typewriter) --- */
+  blockquote {
+    border-left: 3px solid #000;
+    padding-left: 10px;
+    margin: 15px 0;
+    font-style: italic;
+    color: #333;
+  }
+
   @keyframes typing-flicker {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.5; }
@@ -84,7 +85,14 @@
     color: #222;
   }
 
-  /* --- Footer --- */
+  .article-image {
+    display: block;
+    margin: 15px auto;
+    max-width: 80%;
+    height: auto;
+    border: 2px solid #000;
+  }
+
   footer {
     text-align: center;
     font-size: 13px;
@@ -94,41 +102,36 @@
     font-family: 'Georgia', serif;
   }
 </style>
-
-
 </head>
+
 <body>
 
 <header>
   <h1>Bronx Newspaper</h1>
   <p>Helyi hírek – Október 20., 2013</p>
 </header>
-<a href="newspaper.html" class="back-button" aria-label="Vissza a főoldalra">← Vissza</a>
 
+<a href="newspaper.html" class="back-button" aria-label="Vissza a főoldalra">← Vissza</a>
 
 <div class="container">
   <article>
-    <h2 class="typewriter">UFO a Bronxban – A város fölött lebegő titokzatos fények</h2>
-    <p>
-      Az éjszakai égbolton a Bronx felett hirtelen megjelent egy ismeretlen eredetű, ragyogó fényforrás, amely pillanatok alatt felkeltette a helyiek figyelmét. Többen is jelentették, hogy furcsa, kör alakú objektum lebegett csendesen a házak fölött, és mozgása egyáltalán nem hasonlított semmilyen ismert repülőeszközére.
-    </p>
-    <article>
-  <h2 class="typewriter">UFO a Bronxban – A város fölött lebegő titokzatos fények</h2>
-  <img src="ufo.png" alt="UFO kép" style="float: right; margin: 0 0 15px 15px; max-width: 40%; height: auto; border: 2px solid #000;" />
-  <p>
-    Az éjszakai égbolton a Bronx felett hirtelen megjelent egy ismeretlen eredetű, ragyogó fényforrás, amely pillanatok alatt felkeltette a helyiek figyelmét. Többen is jelentették, hogy furcsa, kör alakú objektum lebegett csendesen a házak fölött, és mozgása egyáltalán nem hasonlított semmilyen ismert repülőeszközére.
-  </p>
-  ...
-</article>
+    <h2 class="typewriter">Új utcai zenész a Park Avenue-n – Fiatal Dj váltja az eddigi harmonikást</h2>
+    <img src="zenesz.jpg" alt="Utcai Dj" class="article-image" />
 
     <p>
-      Az UFO-t a környék lakói izgatottan és egyben kissé aggódva figyelték, miközben a város fényei alatt lassan táncolt az égen. Néhányan azt mondták, hogy a különös jármű olyan gyorsan eltűnt, ahogy megjelent, mintha csak egy pillanatig akart volna megmutatkozni.
+      A Park Avenue-n lakók és járókelők egy új hangot vehettek észre a hét elején: a korábbi harmonikás helyét egy fiatal Dj vette át, aki a városi utcát zenével tölti meg minden nap délután.
     </p>
+
+    <blockquote>
+      „Igazi öröm hallgatni, ahogy a dobok es az elektronikai hangok dallamai összhangban szólnak a városi zajjal” – mondta <strong>Elena Rivera</strong>, egyik szomszéd. „Úgy tűnik, a környék egy új kis kulturális központtá vált.”
+    </blockquote>
+
     <p>
-      A helyi rendőrség és az ufó-kutatók is kivonultak a helyszínre, de a titokzatos repülő tárgy már nyomtalanul eltűnt. Vajon valóban földönkívüliek látogatták meg a Bronxot, vagy csak egy újabb magyarázat nélküli városi legenda született?
+      A Dj repertoárja változatos: klasszikus darabokat és jazz improvizációkat egyaránt játszik, így mindenki találhat kedvére valót. A helyiek örömmel fogadták az új előadót, aki minden nap várja az érdeklődőket.
     </p>
+
     <p>
-      Az biztos, hogy az éjszaka csendjét egy különleges, megmagyarázhatatlan esemény törte meg a Bronxban, amelyet még sokáig emlegetni fognak.
+      A város képviselői azt ígérték, hogy támogatják a helyi utcazenészeket, és lehetőséget biztosítanak a fiatal tehetségeknek a Park Avenue és más forgalmas utcák kulturális gazdagítására.
     </p>
   </article>
 </div>
