@@ -1,2 +1,0 @@
-# projektmunka
-webws feladat keszul 
